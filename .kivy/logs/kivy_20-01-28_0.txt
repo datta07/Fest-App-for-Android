@@ -1,0 +1,50 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/garuda/fest_app_home/.kivy/logs/kivy_20-01-28_0.txt
+[WARNING] [Config      ] Upgrading configuration in progress.
+[WARNING] [Config      ] Older configuration version detected (20 instead of 21)
+[INFO   ] Kivy: v1.11.0.dev0, git-8b6af30, 20190320
+[INFO   ] Python: v3.7.2 (default, Mar 20 2019, 15:02:54) 
+[GCC 8.2.0]
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+[INFO   ] KivyMD: KivyMD version: 0.1.2
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 v1.r18p0-00cet0.31096d938f6f64bb2ec1de8405ab6460'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-T880'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <8192>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] GL: NPOT texture support is available
+[INFO   ] Loader: using a thread pool of 2 workers
+[INFO   ] Video: Provider: null(['video_ffmpeg', 'video_ffpyplayer'] ignored)
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/garuda/fest_app_home/main.py", line 264, in <module>
+[WARNING] stderr:     total().run()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/app.py", line 800, in run
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "/storage/emulated/0/garuda/fest_app_home/main.py", line 117, in build
+[WARNING] stderr:     self.main_widget.ids.scr_mngr.add_widget(prof.prof1())
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/uix/relativelayout.py", line 265, in __init__
+[WARNING] stderr:     super(RelativeLayout, self).__init__(**kw)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/uix/floatlayout.py", line 65, in __init__
+[WARNING] stderr:     super(FloatLayout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/uix/layout.py", line 76, in __init__
+[WARNING] stderr:     super(Layout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/uix/widget.py", line 348, in __init__
+[WARNING] stderr:     Builder.apply(self, ignored_consts=self._kwargs_applied_init)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/lang/builder.py", line 469, in apply
+[WARNING] stderr:     self._apply_rule(widget, rule, rule, ignored_consts=ignored_consts)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/lang/builder.py", line 585, in _apply_rule
+[WARNING] stderr:     self._apply_rule(child, crule, rootrule)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/lang/builder.py", line 544, in _apply_rule
+[WARNING] stderr:     cls = Factory_get(cname)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/factory.py", line 142, in __getattr__
+[WARNING] stderr:     level=0  # force absolute
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/uix/rst.py", line 81, in <module>
+[WARNING] stderr:     from docutils.parsers import rst
+[WARNING] stderr: ModuleNotFoundError: No module named 'docutils'
